@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#207A22"
+    tools:context=".ActivitySubjectInformation">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Student Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Student Name : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/txtStudentName"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Ngo Trung A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Sex : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/txtStudentSex"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Student Code : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/txtStudentCode"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="A31232123"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Date of birthday : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:id="@+id/txtStudentdateofbirht"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="03 / 06 / 2000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

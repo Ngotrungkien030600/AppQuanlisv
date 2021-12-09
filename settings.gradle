@@ -1,0 +1,2 @@
+rootProject.name = "Appquanlisv"
+include ':app'
